@@ -10,6 +10,7 @@ export const Chats = () => {
 
   return (
     <>
+    {/* trying to fix the bugs */}
       {!data[0]?.cell ? (
         <Loading></Loading>
       ) : (
