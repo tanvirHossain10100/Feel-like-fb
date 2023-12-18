@@ -1,17 +1,16 @@
 import { Loading } from "../../Loading/Loading";
-import { useFetch } from "../../customHooks/useFetch/UseFetch";
 import { Chat } from "../Chat/Chat";
 import "./Chats.css";
 import { SlNote } from "react-icons/sl";
 import { BsThreeDots } from "react-icons/bs";
 
 export const Chats = () => {
-  const [data] = useFetch();
+  //   const [data] = useFetch();
   console.log(data);
 
   return (
     <>
-      {!data[0]?.cell ? (
+      {/* {!data[0]?.cell ? (
         <Loading></Loading>
       ) : (
         <div>
@@ -36,7 +35,8 @@ export const Chats = () => {
             ))}
           </div>
         </div>
-      )}
+      )} */}
+      <h2>hey</h2>
     </>
   );
 };
