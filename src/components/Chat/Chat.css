@@ -1,0 +1,22 @@
+.signleChat ul :first-child {
+  border-radius: 50%;
+}
+.signleChat ul {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.signleChat li {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.signleChat {
+  transition: 0.25s ease-in-out;
+  margin-left: 5px;        
+  padding-right: 40px;
+  border-radius: 20px;
+}
+.signleChat:hover {
+  transform: translateY(-1px);
+  background-color: gray;
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.mainHeaderDiv {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.chatsSection {
+  display: flex;
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+.messageHeader ul {
+  display: flex;
+  height: 40px;
+  border-bottom: 0.5px solid gray;
+  border-left: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.messageHeader span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.messengerAvatar {
+  gap: 30px;
+}
