@@ -8,6 +8,5 @@ export const useFetch = () => {
       .then((data) => setData(data.results));
   }, []);
 
-
   return [data];
 };
