@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const useFetch = () => {
+const useFetch = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch("https://randomuser.me/api/?results=50")
@@ -10,3 +10,4 @@ export const useFetch = () => {
 
   return [data];
 };
+export default useFetch;

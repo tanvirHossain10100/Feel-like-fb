@@ -3,7 +3,7 @@ import { Chat } from "../Chat/Chat";
 import "./Chats.css";
 import { SlNote } from "react-icons/sl";
 import { BsThreeDots } from "react-icons/bs";
-import { useFetch } from "../../customHooks/useFetch/UseFetch";
+import useFetch from "../../customHooks/useFetch/UseFetch";
 
 export const Chats = () => {
   const [data] = useFetch();
