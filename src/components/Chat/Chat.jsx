@@ -1,15 +1,20 @@
 import "./Chat.css";
 
-
-export const Chat = ({ chat: { id, name, picture, login }, chat }) => {
-  console.log(chat);
+export const Chat = ({
+  chat: { id, name, picture, login },
+  chat,
+  setMessageId,
+}) => {
   const { thumbnail } = picture;
   const { first } = name;
   const { md5 } = login;
+  const handleClick = () => {
+    setMessageId(chat);
+  };
   return (
     <>
       <div className="signleChat">
-        <ul>
+        <ul onClick={() => handleClick()}>
           <li>
             <img src={thumbnail} alt="" />
           </li>

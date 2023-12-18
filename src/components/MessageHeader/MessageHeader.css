@@ -1,6 +1,6 @@
 .messageHeader ul {
   display: flex;
-  height: 40px;
+  height: 60px;
   border-bottom: 0.5px solid gray;
   border-left: none;
   justify-content: space-between;
@@ -9,9 +9,22 @@
 .messageHeader span {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
   align-items: center;
+  width: 400px;
+}
+.messageHeader ul li span {
+}
+.messageHeader2 {
+  justify-content: space-around;
 }
 .messengerAvatar {
   gap: 30px;
+}
+.messengerAvatar p img {
+  border-radius: 50%;
+}
+.messengerAvatar p {
+  display: flex;
+  align-items: center;
 }

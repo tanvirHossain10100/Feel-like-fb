@@ -7,7 +7,7 @@ import { Chats } from "./components/Chats/Chats";
 import { Message } from "./components/Message/Message";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [messageId, setMessageId] = useState(0);
 
   return (
     <>
@@ -16,8 +16,8 @@ function App() {
           <Header></Header>
         </div>
         <div className="chatsSection">
-          <Chats></Chats>
-          <Message></Message>
+          <Chats setMessageId={setMessageId}></Chats>
+          <Message messageId={messageId}></Message>
         </div>
       </div>
     </>

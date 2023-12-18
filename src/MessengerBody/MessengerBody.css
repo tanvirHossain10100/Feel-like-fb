@@ -1,7 +1,11 @@
 .emptyChatBox {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vw;
   width: 100%;
+}
+.messengerSymbol {
+  position: relative;
+  margin-top: 20vw;
+  right: 50%;
+  left: 50%;
+  /* z-index: -3; */
 }
