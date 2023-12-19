@@ -12,7 +12,8 @@
 .onBlur {
   /* background-color: gray;
   backdrop-filter: blur(8px); */
-  opacity: 0.5;
+  opacity: 0.7;
+  /* background-color: red; */
 }
 .doBlur {
   position: static;
