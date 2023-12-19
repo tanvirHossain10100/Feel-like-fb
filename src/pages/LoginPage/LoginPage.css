@@ -6,6 +6,17 @@
   align-items: center;
   gap: 40px;
   height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.onBlur {
+  /* background-color: gray;
+  backdrop-filter: blur(8px); */
+  opacity: 0.5;
+}
+.doBlur {
+  position: static;
+  z-index: 4;
 }
 .loginForm {
   width: 400px;
@@ -14,6 +25,9 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+.blurTheBackGround {
+  background-color: rgba(255, 255, 255);
 }
 .loginMessage h1 {
   color: blue;

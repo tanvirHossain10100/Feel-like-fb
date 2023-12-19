@@ -1,3 +1,15 @@
+.signupTitle {
+  margin-bottom: 30px;
+}
+.signUpSection {
+  /* background-color: red; */
+  /* width: 100vw; */
+}
+.exitFromSignup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .signupContainer {
   width: 450px;
   height: 550px;
@@ -13,13 +25,20 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 10px 10px 10px 10px;
+  z-index: 4;
 }
 .signupContainer form .creatorName {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
+}
+.creatorName input {
+}
+.nameAndPass {
+  margin-top: 10px;
 }
 .signupContainer .otherInfo {
   flex-direction: column;
@@ -28,8 +47,15 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.inputTitle {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
 .signupContainer .otherInfo input {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   width: 400px;
   padding: 10px;
   border-radius: 8px;
@@ -60,4 +86,27 @@
 }
 .genderBorder {
   border: 1px solid gray;
+}
+.signUpdate {
+  margin: 0;
+}
+.submitBtn {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.signupBtn {
+  background-color: #00a400;
+  color: white;
+  font-size: 20px;
+  &:hover {
+    background-color: #649558;
+  }
+}
+.line {
+  width: 0.5px;
+  height: 0.5px;
+  border: 0.5px solid gray;
+  width: 100%;
 }
