@@ -1,0 +1,63 @@
+.signupContainer {
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  top: 15%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  transform: translate(-50);
+  background-color: #fff;
+  z-index: 3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+}
+.signupContainer form .creatorName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.signupContainer .otherInfo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.signupContainer .otherInfo input {
+  margin-top: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  &:hover {
+    border: 0.5px solid blue;
+  }
+  border: 0.5px solid gray;
+}
+.creatorName input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  &:hover {
+    border: 0.5px solid blue;
+  }
+  border: 0.5px solid gray;
+}
+.genderInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.genderInfo span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.genderBorder {
+  border: 1px solid gray;
+}
