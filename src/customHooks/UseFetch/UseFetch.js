@@ -7,7 +7,6 @@ const useFetch = () => {
       .then((res) => res.json())
       .then((data) => setData(data.results));
   }, []);
-
-  return [data];
+  return [data.filter((male) => male.gender === "male")];
 };
 export default useFetch;

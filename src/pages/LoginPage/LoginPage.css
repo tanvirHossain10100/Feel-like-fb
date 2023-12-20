@@ -16,8 +16,8 @@
   /* background-color: red; */
 }
 .doBlur {
-  position: static;
-  z-index: 4;
+  /* position: static; */
+  /* z-index: 4; */
 }
 .loginForm {
   width: 400px;
